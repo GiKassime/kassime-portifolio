@@ -1,32 +1,71 @@
-
 body{
     color: aliceblue;
-    background-color: #2727ff;
+    background-color: #4343f9;
     font-family:"Oswald", sans-serif;
+    margin: 0;
+
 }
 h1{
     font-size: 55px;
    line-height: 75px; 
 }
-h1 strong {
+#projetos {
+    text-decoration: none;
     color: #00e5fc;
 }
-header ul li{ 
-    margin-left: 2%;
-    padding: 0.5%;
-    border:solid 1.5px rgb(243, 240, 238);
-    font-size: 30px;
-    display: inline;
+header ul{
+
+    background-image:linear-gradient(to bottom, #f2f2f478,#4343f9);
+   
+    margin: 0;
 
 }
+li a:hover {
+    transition: 0.3s;
+    transform: scale(1.03);
+    background-color: #b4b7c863;
+
+  }
+header ul li{ 
+    display: inline-block;
+    margin-left: 10rem;
+}
+
 header ul li a{ 
-    text-decoration:none;
-    color: aliceblue;
+    display: block;
+    color: white;
+    font-size: 2rem ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
     
 }
-header,main,footer{
-    margin: 10%;
+header ul li a img{
+    display: inline-flex;
+    padding-right: 10px;
+   
+   
 }
-main p{
+.principal{
+    margin-left: 5%;
+    width: 60%;
     text-align: center;
+    border: solid 0.1rem #ffffff;
+    background-image:linear-gradient(to top, #07071f78,#5d5de1);
+ 
 }
+.principal:hover{
+    transition-delay: 0.5s;
+    transition-duration: 2s;
+}
+#imagemprincipal{
+    margin-left: 10%;
+    padding-top: 6%;
+    text-align: center;
+    border: solid 0.1rem #ffffff;
+    background-image:linear-gradient(to top, #0e63ae78,#1c1c95);
+}
+div{
+    display: inline-block;
+  }
+
