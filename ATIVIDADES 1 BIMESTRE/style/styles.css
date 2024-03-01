@@ -16,7 +16,7 @@ h1{
     text-decoration: none;
     color: #F05941;
 }
-header ul{
+nav ul{
 
     background-image:linear-gradient(to bottom,#872341,#22092c00);
     padding:0;
@@ -28,12 +28,12 @@ li a:hover {
     transform: scale(1.03);
     background: #872341;
   }
-header ul li{ 
+nav ul li{ 
     display: inline-block;
     margin-left: 10rem;
 }
 
-header ul li a{ 
+nav ul li a{ 
     display: block;
     color: white;
     font-size: 2rem ;
@@ -41,15 +41,15 @@ header ul li a{
     text-decoration: none;
     
 }
-header ul li img{
+nav ul li img{
     display: inline-block;
    
    
 }
 .principal{
-    margin-left: 2%;
-    width: 60%;
-    padding: 2%;
+    margin: 2%;
+    min-width: 75%;
+    max-width: 2%;
     text-align: center;
     border: solid 0.1rem #ffffff;
     background-image:linear-gradient(to top, #be3144e0,#87234105);
@@ -60,10 +60,11 @@ header ul li img{
     transition-duration: 2s;
 }
 #imagemprincipal{
-    margin-left: 10%;
-    padding-top: 6%;
+    float: right;
+    margin-right:2%;
+    padding-top: 4%;
     border: solid 0.1rem #ffffff;
-    background-image:linear-gradient(to top, #0e63ae78,#1c1c95);
+    background-image:linear-gradient(to top, #c69649c2,#be3144e0);
 }
 div{
     display: inline-block;
