@@ -1,8 +1,11 @@
 body{
     color: aliceblue;
-    background-color: #4343f9;
+    background-color: #22092C;
     font-family:"Oswald", sans-serif;
-    margin: 0;
+}
+*{
+ margin: 0;
+ padding: 0;
 
 }
 h1{
@@ -11,20 +14,19 @@ h1{
 }
 #projetos {
     text-decoration: none;
-    color: #00e5fc;
+    color: #F05941;
 }
 header ul{
 
-    background-image:linear-gradient(to bottom, #f2f2f478,#4343f9);
-   
+    background-image:linear-gradient(to bottom,#872341,#22092c00);
+    padding:0;
     margin: 0;
 
 }
 li a:hover {
     transition: 0.3s;
     transform: scale(1.03);
-    background-color: #b4b7c863;
-
+    background: #872341;
   }
 header ul li{ 
     display: inline-block;
@@ -35,23 +37,22 @@ header ul li a{
     display: block;
     color: white;
     font-size: 2rem ;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     
 }
-header ul li a img{
-    display: inline-flex;
-    padding-right: 10px;
+header ul li img{
+    display: inline-block;
    
    
 }
 .principal{
-    margin-left: 5%;
+    margin-left: 2%;
     width: 60%;
+    padding: 2%;
     text-align: center;
     border: solid 0.1rem #ffffff;
-    background-image:linear-gradient(to top, #07071f78,#5d5de1);
+    background-image:linear-gradient(to top, #be3144e0,#87234105);
  
 }
 .principal:hover{
@@ -61,7 +62,6 @@ header ul li a img{
 #imagemprincipal{
     margin-left: 10%;
     padding-top: 6%;
-    text-align: center;
     border: solid 0.1rem #ffffff;
     background-image:linear-gradient(to top, #0e63ae78,#1c1c95);
 }
